@@ -1,3 +1,14 @@
+/*-----VARIABLES-----*/
+:root {
+    --white:white;
+    --blue:blue;
+    --red:red;
+    --fuente:Arial, Helvetica, sans-serif;
+}
+
+/*-----BASE-----*/
 *{
     background-color:blue;
+    font-family:var(--fuente);
 }
+/*-----CSS-BASE-----*/
