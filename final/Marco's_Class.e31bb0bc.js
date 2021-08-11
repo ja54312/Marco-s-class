@@ -29653,7 +29653,44 @@ require("./body.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Body() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("body", null));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("body", null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-body"
+  }, /*#__PURE__*/_react.default.createElement("section", {
+    className: "section-main"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Clases de Ingles en Linea")), /*#__PURE__*/_react.default.createElement("section", {
+    className: "section-hero"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Con maestro con certificaci\xF3n")), /*#__PURE__*/_react.default.createElement("section", {
+    className: "section-horarios"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Horarios"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("div", {
+    className: "table-horarios"
+  }, /*#__PURE__*/_react.default.createElement("tr", null, /*#__PURE__*/_react.default.createElement("td", null, "lunes a viernes"), /*#__PURE__*/_react.default.createElement("td", null, "1 hora diaria")), /*#__PURE__*/_react.default.createElement("tr", null, /*#__PURE__*/_react.default.createElement("td", null, "Sabatino"), /*#__PURE__*/_react.default.createElement("td", null, "4 horas")))), /*#__PURE__*/_react.default.createElement("h3", {
+    className: "grupos-reducidos"
+  }, "*Grupos Reducidos*"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("section", {
+    className: "section-costo"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Pago Semanal"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("div", {
+    className: "table-precios"
+  }, /*#__PURE__*/_react.default.createElement("tr", null, /*#__PURE__*/_react.default.createElement("td", null, "Clase Grupal"), /*#__PURE__*/_react.default.createElement("td", null, "$120")), /*#__PURE__*/_react.default.createElement("tr", null, /*#__PURE__*/_react.default.createElement("td", null, "Clase Personal"), /*#__PURE__*/_react.default.createElement("td", null, "$180")))), /*#__PURE__*/_react.default.createElement("section", {
+    className: "section-extra"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "table-extra"
+  }, /*#__PURE__*/_react.default.createElement("tr", null, /*#__PURE__*/_react.default.createElement("td", null, "Material"), /*#__PURE__*/_react.default.createElement("td", null, "$50 PDF")))), /*#__PURE__*/_react.default.createElement("section", {
+    className: "section-contacto"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Contacto"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-contacto"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "facebook-page"
+  }, /*#__PURE__*/_react.default.createElement("a", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg",
+    alt: "logo de facebook",
+    className: "img-contact"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "mail-page"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    href: "mailto:marcosclass.edu@gmail.com"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg",
+    alt: "imagen correo"
+  }))))))));
 }
 },{"react":"node_modules/react/index.js","./body.css":"src/React/Body/body.css"}],"src/React/Footer/footer.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
@@ -29686,7 +29723,9 @@ function Footer() {
     alt: "enlace a pagina JA54312"
   }, "JA54312")), /*#__PURE__*/_react.default.createElement("div", {
     className: "container-correo"
-  }, /*#__PURE__*/_react.default.createElement("a", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    href: "mailto:marcosclass.edu@gmail.com"
+  }, /*#__PURE__*/_react.default.createElement("img", {
     src: "https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg",
     alt: "imagen correo"
   })))));
@@ -29775,7 +29814,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40169" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34549" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
