@@ -1,4 +1,130 @@
 body{
     background-color: var(--blanco);
-    height: 500px;
+}
+.container-body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section-main{
+    text-align: center;
+    font-size: 4rem;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px;
+}
+.section-main h2{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.section-hero{
+    text-align: center;
+    font-size: 4rem;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px;
+}
+.section-hero h2{
+    text-align: center;
+    font-size: 3.3rem;
+}
+.section-horarios{
+    padding: 10px;
+}
+.section-horarios h3{
+    text-align: center;
+    font-size: 3.3rem;
+}
+.table-horarios{
+    display: flex;
+    min-width: 320px;
+    height: auto;
+    border: solid var(--colortabla);
+    border-radius: 5px;
+    width: 100px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.table-horarios tr{
+    padding: 10px;
+}
+.table-horarios tr td{
+    padding: 0 15px;
+    font-size: 1.5rem;
+}
+.grupos-reducidos{
+    text-align: center;
+    font-size: 3.3rem;
+}
+.section-costo{
+    padding: 10px;
+}
+.section-costo h3{
+    text-align: center;
+    font-size: 3.2rem;
+}
+.table-precios{
+    display: flex;
+    min-width: 320px;
+    height: auto;
+    border: solid var(--colortabla);
+    border-radius: 5px;
+    width: 100px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.table-precios tr{
+    padding: 10px;
+}
+.table-precios tr td{
+    padding: 0 15px;
+    font-size: 1.5rem;
+}
+.section-extra{
+    padding: 10px;
+}
+.table-extra{
+        display: flex;
+        min-width: 320px;
+        height: auto;
+        border: solid var(--colortabla);
+        border-radius: 5px;
+        width: 100px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+}
+.table-extra tr{
+    padding: 10px;
+}
+.table-extra td{
+    padding: 0 15px;
+    font-size: 1.5rem;
+}
+.section-contacto{
+    padding: 10px;
+}
+.section-contacto h3{
+    text-align: center;
+    font-size: 3.5rem;
+}
+.container-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-width: 320px;
+}
+.img-contact{
+    height: 50px;
+    width: 50px;
 }
