@@ -1,0 +1,14 @@
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    text-align: center;
+    background-color: var(--azul);
+}
+header h1{
+    color:var(--blanco);
+}

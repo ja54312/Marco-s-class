@@ -29633,7 +29633,87 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/styles/base.css":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/React/Body/body.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/React/Body/body.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Body;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./body.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Body() {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("body", null));
+}
+},{"react":"node_modules/react/index.js","./body.css":"src/React/Body/body.css"}],"src/React/Footer/footer.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/React/Footer/footer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Footer;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./footer.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Footer() {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("span", {
+    className: "version"
+  }, " v0.0.1"), /*#__PURE__*/_react.default.createElement("p", {
+    class: "text-footer"
+  }, "Created with love \u2764 by ", /*#__PURE__*/_react.default.createElement("a", {
+    href: "https:www.ja54312.com",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    alt: "enlace a pagina JA54312"
+  }, "JA54312")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-correo"
+  }, /*#__PURE__*/_react.default.createElement("a", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg",
+    alt: "imagen correo"
+  })))));
+}
+},{"react":"node_modules/react/index.js","./footer.css":"src/React/Footer/footer.css"}],"src/React/Header/header.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/React/Header/header.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Header;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./header.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Header() {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("h1", null, "Marco's class")));
+}
+},{"react":"node_modules/react/index.js","./header.css":"src/React/Header/header.css"}],"src/styles/base.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -29650,22 +29730,24 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
+var _body = _interopRequireDefault(require("./src/React/Body/body"));
+
+var _footer = _interopRequireDefault(require("./src/React/Footer/footer"));
+
+var _header = _interopRequireDefault(require("./src/React/Header/header"));
+
 require("./src/styles/base.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
-    className: "container-titulo-principal"
-  }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "titulo-principal"
-  }, "Holi crayoli"), /*#__PURE__*/_react.default.createElement("p", null, "holi ")), /*#__PURE__*/_react.default.createElement("hr", null));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_body.default, null), /*#__PURE__*/_react.default.createElement(_footer.default, null));
 }
 
 var entryPointMalta = document.getElementById("root");
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), entryPointMalta);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./src/styles/base.css":"src/styles/base.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./src/React/Body/body":"src/React/Body/body.js","./src/React/Footer/footer":"src/React/Footer/footer.js","./src/React/Header/header":"src/React/Header/header.js","./src/styles/base.css":"src/styles/base.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29693,7 +29775,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33733" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40169" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
