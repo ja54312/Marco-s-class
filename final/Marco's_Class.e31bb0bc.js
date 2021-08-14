@@ -29714,7 +29714,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Footer() {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("span", {
     className: "version"
-  }, " v0.0.1"), /*#__PURE__*/_react.default.createElement("p", {
+  }, " v0.0.2"), /*#__PURE__*/_react.default.createElement("p", {
     class: "text-footer"
   }, "Created with love \u2764 by ", /*#__PURE__*/_react.default.createElement("a", {
     href: "https:www.ja54312.com",
@@ -29814,7 +29814,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34549" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40993" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
