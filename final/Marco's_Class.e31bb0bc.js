@@ -29717,7 +29717,7 @@ function Footer() {
   }, " v0.0.2"), /*#__PURE__*/_react.default.createElement("p", {
     class: "text-footer"
   }, "Created with love \u2764 by ", /*#__PURE__*/_react.default.createElement("a", {
-    href: "https:www.ja54312.com",
+    href: "https://www.ja54312.com",
     target: "_blank",
     rel: "noopener noreferrer",
     alt: "enlace a pagina JA54312"
@@ -29814,7 +29814,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40993" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36623" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
