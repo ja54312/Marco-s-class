@@ -55,7 +55,7 @@ export default function Body(){
           <h3>Contacto</h3>
           <div className="container-contacto">
             <div className="facebook-page">
-              <a>
+              <a href="https://www.facebook.com/Marcos-Class-102399352162327" target="_blank" rel="noopener noreferrer">
                 <img src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg" alt="logo de facebook" className="img-contact"></img>
               </a>
             </div>

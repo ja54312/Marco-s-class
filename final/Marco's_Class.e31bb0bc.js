@@ -29679,7 +29679,11 @@ function Body() {
     className: "container-contacto"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "facebook-page"
-  }, /*#__PURE__*/_react.default.createElement("a", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.facebook.com/Marcos-Class-102399352162327",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/_react.default.createElement("img", {
     src: "https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg",
     alt: "logo de facebook",
     className: "img-contact"
@@ -29814,7 +29818,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41577" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39967" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
