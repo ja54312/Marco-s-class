@@ -6,7 +6,7 @@ export default function Header(){
     return(
       <>
         <header>
-            <h1 className="animate__animated animate__heartBeat-2s">Marco's class</h1>
+            <h1 className="animate__animated animate__heartBeat">Marco's class</h1>
         </header>
             
         
