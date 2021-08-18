@@ -11,4 +11,5 @@ header{
 }
 header h1{
     color:var(--blanco);
+    font-size: 4rem;
 }
