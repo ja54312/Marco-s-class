@@ -19,17 +19,18 @@ export default function Body(){
            <div className="table-horarios">
            <tr>
              <td>lunes a viernes</td>
-             <td>1 hora diaria</td>
+             <td>1 a 2 horas diarias</td>
            </tr>
            <tr>
-             <td>Sabatino</td>
-             <td>4 horas</td>
+             <td>de</td>
+             <td>8:00 a 20:00</td>
            </tr>
           </div>
          </section>
          <h3 className="grupos-reducidos">*Grupos Reducidos*</h3>
          <br></br>
          <section className="section-costo">
+           <div class="card">
             <h3>Pago Semanal</h3>
             <br></br>
             <div className="table-precios">
@@ -42,9 +43,29 @@ export default function Body(){
              <td>$180</td>
            </tr>
            </div>
+           </div>
+           <div class="card">
+           <h3>Pago Mensual</h3>
+            <br></br>
+            <div className="table-precios">
+            <tr>
+             <td>Clase Grupal</td>
+             <td>$480</td>
+           </tr>
+           <tr>
+             <td>Clase Personal</td>
+             <td>$720</td>
+           </tr>
+           </div>
+           </div>
          </section>
+           <h3 className="grupos">Grupos de 2 a 6 personas</h3>
          <section className="section-extra">
            <div className="table-extra">
+            <tr>
+             <td>Regularizaciones </td>
+             <td>$60 Hora</td>
+            </tr>
             <tr>
              <td>Material</td>
              <td>$50 PDF</td>
