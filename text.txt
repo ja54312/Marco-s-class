@@ -1,14 +1,2 @@
-PASOS
-1.-Creacion base con fondo asul gh pages
--creacion npm 
--configuracion parcel
--creacion carpetas
--base fondo azul
+Pendientes
 
-2.-Creacion header y footer
--cracion carpetas
--creacion componentes
--estructura header
--estilo header
--estructura footer
--estilo footer
