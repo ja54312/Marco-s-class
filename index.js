@@ -12,7 +12,7 @@ export default function App(){
        <Body></Body>
        <Footer></Footer>
     
-    </>
+    </>      
   )
 }
 
