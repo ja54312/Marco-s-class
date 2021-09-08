@@ -29768,12 +29768,7 @@ function Header() {
     className: "animate__animated animate__heartBeat"
   }, "Marco's class")));
 }
-},{"react":"node_modules/react/index.js","./header.css":"src/React/Header/header.css","animate.css":"node_modules/animate.css/animate.css"}],"src/styles/base.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./header.css":"src/React/Header/header.css","animate.css":"node_modules/animate.css/animate.css"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29791,10 +29786,9 @@ var _footer = _interopRequireDefault(require("./src/React/Footer/footer"));
 
 var _header = _interopRequireDefault(require("./src/React/Header/header"));
 
-require("./src/styles/base.css");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//import './src/styles/base.css';
 function App() {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_body.default, null), /*#__PURE__*/_react.default.createElement(_footer.default, null));
 }
@@ -29802,7 +29796,7 @@ function App() {
 var entryPointMalta = document.getElementById("root");
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), entryPointMalta);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./src/React/Body/body":"src/React/Body/body.js","./src/React/Footer/footer":"src/React/Footer/footer.js","./src/React/Header/header":"src/React/Header/header.js","./src/styles/base.css":"src/styles/base.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./src/React/Body/body":"src/React/Body/body.js","./src/React/Footer/footer":"src/React/Footer/footer.js","./src/React/Header/header":"src/React/Header/header.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29830,7 +29824,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46663" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33317" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
